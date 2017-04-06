@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+   <link href="arquivo.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <style>
+    body {
+
+      
+      margin: 0px;
+
+         }
+    header { 
+      background-image: linear-gradient(135deg, rgba(30, 33, 33, .70) 1%, rgba(32, 32, 32, .14) 98%), url(img/desk.jpg);
+      background-size: auto, cover;
+      background-position: 0px, 0px -150px;
+      height: 70vh;
+    }
+    header p, header h1 {
+      text-align: center;
+      color: rgb(236, 236, 226);
+      font-family: 'Lora', serif;
+    }
+    header h1 {
+      padding-top: 35vh;
+      margin: 0px;
+      font-size: 3em;
+      text-transform: uppercase;
+    }
+    header p {
+      font-size: 1.3em;
+   
+
+    }
+    header img {position: absolute;top:0px;width: 1585px; background-image: linear-gradient(135deg, rgba(30, 33, 33, .70) 1%, rgba(32, 32, 32, .14) 98%), url(img/desk.jpg);
+     background-size: auto, cover;
+      background-position: 0px, 0px -1500px;
+      height: 70vh;
+    }
+ 
+
+ .pesquisa{width: 400px; 
+           height: 40px;
+           margin: 150px auto;
+ }
+ #texto{ width: 500px;
+         height: 400px;
+         font-family: 'Arial';
+         font-size: 20px;
+         margin-top:325px; 
+
+ 
+ }
+ #texto:focus{border:solid 2px #2f4550;
+
+ }
+ .btn{ margin-top: 856px;
+      width: 45px;
+      height: 400px;
+      background-color: #2f4550;
+      cursor: pointer;  
+ }
+
+  p:before {
+    content:"";
+    display:inline-block;
+    width : 50px;
+    float:center;
+    position: fixed;
+}
+  p{ 
+    color: red;
+     font-size: 20px;
+     margin-left: 350px;
+     margin-right: 350px;
+   }
+
+
+
+
+  </style>
+</head>
+
+
+<body bgcolor="#FFE4C4">
+  <header>
+    <h1>Aquarismo Jumbo</h1>
+    <p>Mostros de água doce.</p>
+    <img src="PeixeOscar.jpg" >
+    
+<div class="pesquisa">
+  <form>
+   <input src="seach" id="texto" list="historico" placeholder="Pesquisar Peixes">
+   <img src="lupa.png" class="btn">
+   <datalist id="historico">
+   <option value="Faca palhaço"></option>
+   <option value="Oscar"></option>
+   <option value="Pirarucu"></option>
+   <option value="Boca de jacaré"></option>
+   <option value="Polypterus"></option>
+   <option value="Aruana"></option>
+   <option value="Texas ble"></option>
+   <option value="Cascudo"></option>
+   <option value="tucunaré"></option>
+   <option value="Carpa"></option>
+   <option value="Pangasius"></option>
+   <option value="Caborja"></option>
+   <option value="Green Terror"></option>
+   <option value="Pintado"></option>
+   <option value="Synbranchus Marmoratus"></option>
+   <option value="Arraia Leopoldi"></option>
+   <option value="Arraia Histrix"></option>
+   <option value="Acara Uaru"></option>
+   <option value="Acara do Congo"></option>
+   <option value="Acara Severum"></option>
+   <option value="Acara Bandeira"></option>
+   <option value="Acara Esmeralda"></option>
+   <option value="Jack Dempsey"></option>
+   <option value="Gulper Catfish"></option>
+   <option value="Boca De Fogo"></option>
+   <option value="Ituí Cavalo"></option>
+   <option value="Grouper Panther"></option>
+   <option value="Flowerhorn"></option>
+   <option value="Labeo Bicolor"></option>
+   <option value="Tambaqui"></option>
+   <option value="Traira"></option>
+   <option value="Trigrinus"></option>
+   <option value="Jaguar"></option>
+   </datalist>
+  </form>
+</div>
+    
+    
+  
+
+  </header>
+
+  <style>
+
+
+ 
+   #marg{margin-top: 200px;}
+
+#barr-lateral {margin: 0;
+              padding: 0; 
+              float:right;
+              position:relative;
+              top: 100px; 
+} 
+#barr-lateral li{list-style: none;
+              background: #CCCCCC;
+               width: 200px;
+              border-bottom:1px solid #666;
+}
+#barr-lateral li a{display: block;
+                   padding: 8px;
+                   border-right:4px solid #444;
+                   text-decoration: none;
+                   box-shadow: 2px 2px 5px #ccc;
+                   color:#555;   
+}
+#barr-lateral li a:hover{border-right:4px solid #069;
+                         background: #f8f8f8;
+}
+#barr-lateral li ul{display: none;}
+#barr-lateral li:hover ul{display:block; }
+#barr-lateral li:hover ul li{background: #333;}
+#barr-lateral li:hover ul li a{color:#ccc;}  
+#barr-lateral ul li a:hover{background:#222;
+                            border-right: 4px solid #900
+}
+
+ #area
+  {
+    position:relative;
+    left:1250px;
+    top:500px;
+    width:320px;
+    height:270px;
+  }
+  #area #formulario
+  {
+    position:absolute;
+    display:block;
+
+  }
+  fieldset
+  {
+    width:200px;
+    height:100px;
+    border-width: 5px;
+    background-color: #FFFFFF;
+
+  }
+
+ .campo_nome{margin-bottom: 15px;
+
+ }
+ .campo_email{margin-bottom: 15px;
+                
+ }
+ .btn_submit{background:#EED2EE;
+ }
+
+.but {position: relative;
+display: inline-block;
+background-color: #FF4500;
+color: #000;
+font-weight: bold;
+vertical-align: middle;
+padding: 10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 18px;
+border: 0px;
+border-radius:50px;
+ margin-top:50px; 
+ margin-left: 1350px;
+ margin-bottom: 150px;
+ 
+}
+  
+.but {opacity:0.5;
+    transition: opacity 1s 0.1s ease-in-out;
+    will-change: opacity;}
+  
+.but:hover {opacity:1;}
+
+#face{position:relative;
+    left:1250px;
+    top:0px;
+    width:320px;
+    height:270px;
+    
+}
+
+  </style>
+<main>
+
+<div id="barr-lateral">
+
+  <ul >
+ <li><a href="#">Rede Sociais</a>
+
+<ul>
+    <li><a href="#">Grupos no Facebook</a>
+<ul>
+     <li><a href="https://www.facebook.com/aquarismoiniciante/">Aquarismo Iniciante</a></li>
+     <li><a href="https://pt-br.facebook.com/groups/641409809306516">Aquarismo Marinho</a></li>
+     <li><a href="https://pt-br.facebook.com/groups/1420413751529368/forsaleposts/">Aquarismo MG</a></li>
+     <li><a href="https://pt-br.facebook.com/groups/AquarismoCE/permalink/561287244040261/">Aquarismo CE</a></li>
+     <li><a href="https://pt-br.facebook.com/SBA.SociedadeBrasileiraAquaristas/">Sociedade Brasileira Aquarista</a></li>
+     <li><a href="https://pt-br.facebook.com/grupoaquaristasdeniteroi/">Aquarista de Niterói</a></li>
+     <li><a href="https://pt-br.facebook.com/Peixe-Grande-Aquarismo-498201810311995/">Peixe Grande Aquarismo</a></li>
+     <li><a href="https://pt-br.facebook.com/AquarismoPB">Aquarismo PB</a></li>
+</ul> 
+    </li>
+    <li><a href="#">Instagram</a></li>
+    <li><a href="#">twiter</a></li>
+    <li><a href="#">You tube Canais</a>
+<ul>
+   <li><a href="https://www.youtube.com/watch?v=_OBGYGqFhhg">Aquarismo Fácil</a></li>
+   <li><a href="https://www.youtube.com/channel/UCvaBFRjtzm_5O2Bd1Rgvg5g">Brasil Aquarismos</a></li>
+   <li><a href="https://www.youtube.com/watch?v=K0KFPEoY-ZQ">Tv Aquarismo Jumbo</a></li>
+   <li><a href="https://www.youtube.com/channel/UCNogeTrINhMw22yhqmXAjMA">Aquarismo Jumbo</a></li>
+   <li><a href="https://www.youtube.com/user/remoterani/videos">Renato Monterani</a></li>
+</ul>   
+    </li>
+</ul>
+
+ </li>
+    <li><a href="#">Curiosiedades</a></li>
+    <li><a href="#">Outros Tipos de Aquarismo</a>
+<ul>
+    <li><a href="https://pt.wikipedia.org/wiki/Aqu%C3%A1rio_plantado">Plantados</a><li>
+    <li><a href="http://www.msmarine.com.br/aquario-marinho.asp">Marinho</a><li>
+    <li><a href="http://dmscaping.blogspot.com.br/p/aquapaisagismo.html">Aquapaisagismo</a><li>
+</ul>
+    </li>
+    <li><a href="#">Parâmentros</a>
+
+<ul>
+    <li><a href="http://www.webanimal.com.br/peixe/index2.asp?menu=p_ph.htm">Ph</a><li>
+    <li><a href="https://www.aquaa3.com.br/2016/04/o-que-e-amonia-no-aquario.html">Amônia</a><li>
+</ul>
+
+    </li>
+    <li><a href="">Sites Parceiros</a>
+<ul>   
+    <li><a href="www.aquariushobby.com.br/">Aquarius Hobby</a></li>
+    <li><a href="www.aquaonline.com.br/">Aqol-Aquarismo Online</a></li>
+    <li><a href="http://www.aquarismopaulista.com/">Aquarismo Paulista</a></li>
+    <li><a href="http://aquabr.com.br/">Aquabr</a></li>
+    <li><a href="http://www.aquaflux.com.br">Aquaflux</a></li>
+    <li><a href="http://peixeseaquarios.com.br/">Peixes e Aquários</a></li>
+    <li><a href="https://www.aquaa3.com.br/">AquaA3</a></li>
+    <li><a href="http://www.aquariushobby.blog.br/2009/03/quebrando-gelo.html">Aquarius Hobby</a></li>
+    <li><a href="http://reefclub.com.br/portal/">Reef Club</a></li>
+    <li><a href="http://www.portaldeaquario.com.br/principal.html">Portal Do Aquarismo</a></li>
+</ul>  
+   </li>
+    <li><a href="">foruns</a>
+<ul>
+     <li><a href="http://www.aquaflux.com.br/forum/">Forum Aquaflux</a></li>
+     <li><a href="http://www.reefclub.com.br/community/index.php">Forum Reef Clube</a></li>
+     <li><a href="http://www.aquaonline.com.br/forum/">Forum Aquarismo Online</a></li>
+     <li><a href="http://www.aquahobby.com/phpBB2/">Forum Aquahobby</a></li>
+     <li><a href="http://www.reefcorner.org/forum/default.asp">Forum Reef Corner</a></li>
+     <li><a href="http://www.ipaq.org.br/vb/forum.php">Forum IpAq</a></li>
+     <li><a href="http://www.aquariofilia.net/forum/">forum Aquariofilia</a></li>
+</ul>
+    </li>
+
+    <li><a href="#">Doenças e Tratamento</a>
+<ul>
+    <li><a href="#">?</a></li>
+    <li><a href="#">?</a></li>
+    <li><a href="#">?</a></li>
+    <li><a href="#">?</a></li>
+    <li><a href="#">?</a></li>
+</ul>
+    </li> 
+    
+    <li><a href="#">Tratamento De Tronco</a></li>
+    <li><a href="#">Peixes de Pele</a></li>
+    <li><a href="#">Peixes De Escama</a></li>
+    <li><a href="#">Acessórios Fundamentais</a></li>
+    <li><a href="#">Transporte De Peixes</a></li>
+    <li><a href="#">Calculadora De Litragem</a></li>
+    <li><a href="#">Qual Cilicone Devo colar Aquário</a></li>
+    <li><a href="#">Ph ácido</a></li>
+    <li><a href="#">ph neutro</a></li>
+    <li><a href="#">Ph alcalino</a></li>
+    <li><a href="#">Tpa</a></li>
+    <li><a href="#">Alimento Vivo</a></li>
+    <li><a href="#">Pedrinhas Coloridas</a></li>
+    <li><a href="#">Ciclagem</a></li>
+    <li><a href="#">Iluminação</a></li>
+    <li><a href="#">Faça Você Mesmo</a></li>
+    <li><a href="#">Sal Grosso</a></li>
+    <li><a href="#">Rações</a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#">?</a></li>
+    <li><a href="#">?</a></li>   
+    <li><a href="#">?</a></li>
+
+</ul>
+</div>
+
+
+
+<div id="area"> 
+    <form id="formulario" autocomplete="off">
+      <fieldset>
+        <legend>Loguin</legend>
+        <label>Nome:</label><input class="campo_nome" type="text"><br>
+        <label>Email:</label><input class="campo_email" type="password"><br>
+        <input class="btn_submit" type="submit" value="Entrar">
+        <input class="btn_submit" type="submit" value="Recuperar Senha">
+      </fieldset>
+    </form>
+</div>
+
+<p id="marg"><img src=""><font>Os primeiros peixes, surgiram há cerca de 500 milhões de anos, este período está registrado através de fósseis encontrados. Estes peixes primitivos não possuíam nadadeiras, maxilas ou tão pouco escamas como os peixes atuais. Apresentavam um tipo de coluna a qual era formada por um eixo central, era firme porém flexível, contra a qual os músculos pressionavam para dar impulsão ao animal.</p>
+
+<p>A partir do aparecimento das maxilas 350 milhões (período Siluruano), e por ter os ossos duros os peixes deram bons fósseis, e foi também o desenvolvimento evolutivo, surgindo dai as maxilas, que houve um grande salto da espécie, pois permitiram a partir dai a mordida e a mastigação de alimentos grandes demais para serem engolidos inteiros. Hoje todos os peixes, com exceção dos ciclostomados (lampreias e feiticeiras) tem alguma forma de maxila.</p>
+
+
+<p>Um peixe que se tornou famoso é o Celacanto, que era conhecido através de muitos fósseis com idade de 400 milhões de anos, e que acreditava-se extinto há 80 milhões de anos, porém em 1938, cientistas ficaram espantados com a descoberta na África do Sul e pasmem VIVO. Desde então foram pescados mais de cem Celacantos, os quais foram fotografados e filmados.Os anos se passaram...</p>
+
+
+<p>Quando começaram os descobrimentos e estudos das pirâmides do Egito, os arqueólogos encontraram vestígios de criação de peixes em tanques de vidro, vestígios estes com data de cerca de 4.000 anos. Não se sabe até os dias de hoje, se a intenção era o desenvolvimento, criação, ou apenas ornamentação e hobby ou se a verdadeira intenção era gastronômica, afinal, um tanque cheio de peixes, não deixa de ser um estoque de alimentos, ou se realmente foram eles os primeiros aquáristas da história.</p>
+
+
+<p>Um filósofo grego de nome <a href="https://pt.wikipedia.org/wiki/Aristóteles">Aristóteles</a>, que era um estudioso, que abrangia em seus estudos diversos temas: lógica, metafísica, retórica, ciências naturais e política. Durante um período de sua vida, se dedicou a estudar o comportamento de diversas espécies animais entre elas os peixes, chegou a descrever perto de 115 espécies diferentes, dando assim início a uma nova ciência a "ICTIOLOGIA", palavra Grega cujo significado é "Estudo dos peixes".<p/>
+
+
+<p>No século XIII, <a href="
+https://pt.wikipedia.org/wiki/Marco_Polo">Marco Polo</a>, um grande viajante Italiano, deixou entre os relatos de suas viagens, menção ao habito que os Chineses tinham de criar lindos peixes em tanques de vidro, e também estudavam estas espécies, ou seja, mais ou menos o que Aristóteles havia iniciado, porém, com muito mais profundidade, tanto que por volta de 970 a 1200, conseguiram obter em cativeiro, os primeiros cruzamentos seletivos.</p>
+
+
+<p>Pelos relatos de Marco Polo, fica flagrante que os Chineses foram os primeiros aquáristas, os mais próximos dos aquáristas de hoje. Foi inclusive na China que teve o início a criação do peixe dourado, sem as grandes nadadeiras que hoje os caracterizam. Mais tarde o peixe dourado (Carassius Auratus) teve o seu processo de seleção aperfeiçoado pelos japoneses, que contribuiu para a grande popularidade desta espécie, tanto que teve o seu nome popular mudado para "peixe-japones".</p>
+
+
+<p>Abaixo, cito fatos e datas históricas que marcaram e contribuíram para o desenvolvimento e divulgação do aquarismo.</p>
+
+<p>- CHU SHA YU P' U - Título Chines do primeiro livro sobre técnicas de criação de peixes ornamentais, escrito pelo Chinês <a href="https://pt.wikipedia.org/wiki/Chang_Dai-chien">"Chang Chi'En-Tê"</a>, titulo este que traduzido quer dizer "Livro dos peixes vermelhos".</p>
+
+<p>- O naturalista Sueco <a href="
+https://pt.wikipedia.org/wiki/Taxonomia_de_Lineu"
+>LINEU</a>, criou a "taxonomia" que é a ciência das leis de classificação científica e permitiu que os peixes fossem classificados por gênero e espécie, esta ciência contribuiu para facilitar os estudos destes animais, o tal "nome cientifico" que é universal, ou seja, cada individuo descoberto será classificado e o nome dado será imutável.</p>
+
+<p>- No século XVI, os Portugueses devido as grandes navegações, foram os responsáveis pela popularização e divulgação do hábito de criar peixes ornamentais em globos de vidro em toda a Europa ocidental.</p>
+
+<p>- Não podemos deixar de citar os Norte-americanos, os quais tem um papel fundamental no desenvolvimento do aquarismo através de pesquisas, estudos, publicações equipamentos e técnicas.</p>
+
+<p>- Em 1922, houve no Brasil a Exposição da Independência, durante a qual os Japoneses exibiram seus magníficos aquários e suas técnicas, que originou o surgimento do aquarismo no Brasil, a partir deste evento, surgiram os primeiros criadores particulares, porém sem nenhum apoio tanto de técnicas como de equipamentos.</p>
+
+<p>No ano de 1934, finalmente um Alemão radicado no Brasil, fundou a primeira loja especializada em peixes ornamentais. A partir dai o aquarismo no Brasil teve uma grande evolução, tanto em técnicas, alimentos, equipamentos, medicamentos e literatura.
+</p></font>
+
+<a class="but" href="#" target="_blank">próxima pág. >></a>
+</main>
+
+<div id="face">
+<img src="face.jpg">
+</div>
+
+<div id="twtt">
+<img src="tw.jpg">
+</div>
+
+<div id="yt">
+<img src="you.jpg">
+</div>
+
+<div id="ints">
+<img src="ints.jpg">
+</div>
+
+<style>
+h1{margin-top: 200px;
+   margin-left: 600px;
+   font-family: 
+   
+}
+
+.area {
+    background: #FF4500;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    width: 10%;
+    height: 30px;
+    margin-top:50px; 
+    margin-left: 1350px;
+    margin-bottom: 150px;
+    display: inline-block;
+  }
+  .fade {
+    opacity:0.5;
+    transition: opacity 1s 0.1s ease-in-out;
+    will-change: opacity;
+  }
+  .fade:hover {
+    opacity:1;
+  }
+  .area{border-radius:50px;
+
+  }
+
+  
+ 
+</style>
+
+<footer>
+
+
+<div class="area fade">anime >></div>
+<a href=""> </a>
+
+
+</footer>
+
+
+
+</body>
+</html>

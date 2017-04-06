@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <style>
+    body {
+      margin: 0px;
+
+    }
+    header { 
+      background-image: linear-gradient(135deg, rgba(30, 33, 33, .70) 1%, rgba(32, 32, 32, .14) 98%), url(img/desk.jpg);
+      background-size: auto, cover;
+      background-position: 0px, 0px -150px;
+      height: 70vh;
+    }
+    header p, header h1 {
+      text-align: center;
+      color: rgb(236, 236, 226);
+      font-family: 'Lora', serif;
+    }
+    header h1 {
+      padding-top: 35vh;
+      margin: 0px;
+      font-size: 3em;
+      text-transform: uppercase;
+    }
+    header p {
+      font-size: 1.3em;
+   
+
+    }
+    header img {position: absolute;top:0px;width: 1585px; background-image: linear-gradient(135deg, rgba(30, 33, 33, .70) 1%, rgba(32, 32, 32, .14) 98%), url(img/desk.jpg);
+     background-size: auto, cover;
+      background-position: 0px, 0px -1500px;
+      height: 70vh;
+    }
+ 
+ .pesquisa{width: 400px; 
+           height: 40px;
+           margin: 150px auto;
+ }
+ #texto{ width: 350px;
+         height: 40px;
+         font-family: 'Arial';
+         font-size: 20px;
+         margin-top:325px; 
+ }
+ #texto:focus{border:solid 2px #2f4550;
+
+ }
+
+.btn{ margin-top: 856px;
+      width: 45px;
+      height: 45px;
+      background-color: #2f4550;
+      cursor: pointer;  
+ }
+
+
+  </style>
+</head>
+
+
+<body bgcolor="#FFE4C4">
+  <header>
+    <h1>Aquarismo Jumbo</h1>
+    <p>Mostros de água doce.</p>
+    
+    <img src="PeixeOscar.jpg" >
+    
+    
+<div class="pesquisa">
+  <form>
+   <input src="seach" id="texto" list="historico" placeholder="buscar">
+   <img src="lupa.png" class="btn">
+   <datalist id="historico">
+   <option value="Faca palhaço"></option>
+   <option value="Oscar"></option>
+   <option value="Pirarucu"></option>
+   <option value="Boca de jacaré"></option>
+   <option value="Polypterus"></option>
+   <option value="Aruana"></option>
+   <option value="Texas ble"></option>
+   <option value="Cascudo"></option>
+   <option value="tucunaré"></option>
+   <option value="Carpa"></option>
+   <option value="Pangasius"></option>
+   <option value="Caborja"></option>
+   <option value="Green Terror"></option>
+   <option value="Pintado"></option>
+   <option value="Synbranchus Marmoratus"></option>
+   <option value="Arraia Leopoldi"></option>
+   <option value="Arraia Histrix"></option>
+   <option value="Acara Uaru"></option>
+   <option value="Acara do Congo"></option>
+   <option value="Acara Severum"></option>
+   <option value="Acara Bandeira"></option>
+   <option value="Acara Esmeralda"></option>
+   <option value="Jack Dempsey"></option>
+   <option value="Gulper Catfish"></option>
+   <option value="Boca De Fogo"></option>
+   <option value="Ituí Cavalo"></option>
+   <option value="Grouper Panther"></option>
+   <option value="Flowerhorn"></option>
+   <option value="Labeo Bicolor"></option>
+   <option value="Tambaqui"></option>
+   <option value="Traira"></option>
+   <option value="Trigrinus"></option>
+   <option value="Jaguar"></option>
+   </datalist>
+  </form>
+</div>
+    
+    
+  
+
+  </header>
+
+  <style>
+
+  p:before {
+    content:"";
+    display:inline-block;
+    width : 50px;
+    float:center;
+    position: fixed;
+}
+  p{ 
+    color: red;
+     font-size: 20px;
+     margin-left: 350px;
+     margin-right: 350px;
+   }
+ 
+
+#barr-lateral {margin: 0;
+              padding: 0; 
+              float:left;
+              position:relative;
+              top: 500px; 
+} 
+#barr-lateral li{list-style: none;
+              background: #CCCCCC;
+               width: 200px;
+              border-bottom:1px solid #666;
+}
+#barr-lateral li a{display: block;
+                   padding: 8px;
+                   border-left:4px solid #444;
+                   text-decoration: none;
+                   box-shadow: 2px 2px 5px #ccc;
+                   color:#555;   
+}
+#barr-lateral li a:hover{border-left:4px solid #069;
+                         background: #f8f8f8;
+}
+#barr-lateral li ul{display: none;}
+#barr-lateral li:hover ul{display:block; }
+#barr-lateral li:hover ul li{background: #333;}
+#barr-lateral li:hover ul li a{color:#ccc;}  
+#barr-lateral ul li a:hover{background:#222;
+                            border-left: 4px solid #900
+}
+
+ #area
+  {
+    position:relative;
+    left:1250px;
+    top:500px;
+    width:320px;
+    height:270px;
+  }
+  #area #formulario
+  {
+    position:absolute;
+    display:block;
+
+  }
+  fieldset
+  {
+    width:200px;
+    height:100px;
+    border-width: 5px;
+    background-color: #FFFFFF;
+
+  }
+
+ .campo_nome{margin-bottom: 15px;
+
+ }
+ .campo_email{margin-bottom: 15px;
+                
+ }
+ .btn_submit{background:#EED2EE;
+ }
+
+.but {position: relative;
+display: inline-block;
+background-color: #FF4500;
+color: #000;
+font-weight: bold;
+vertical-align: middle;
+padding: 10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 18px;
+border: 0px;
+border-radius:50px;
+ margin-top:50px; 
+ margin-left: 1350px;
+ margin-bottom: 150px;
+ 
+}
+  
+.but {opacity:0.5;
+    transition: opacity 1s 0.1s ease-in-out;
+    will-change: opacity;}
+  
+.but:hover {opacity:1;}
+
+.corpo{width: 960px;
+       margin: auto;
+}
+
+.comteudo{display: table;
+
+}
+.imagem{table-cell;
+        float: left;
+}
+.texto{display: table-cell;
+        float: left;
+        width: 300px;
+        margin-top: 600px;
+        margin-right: 400px;
+}
+
+.imagem{
+        margin-top: 600px;
+        margin-left:200px;
+}
+
+.faca-palhaco{margin-top: 500px;
+              margin-left: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+  </style>
+
+
+
+<main>
+
+
+
+
+<div id="barr-lateral">
+
+  <ul >
+ <li><a href="#">Rede Sociais</a>
+
+<ul>
+    <li><a href="#">Grupos no Facebook</a>
+<ul>
+     <li><a href="https://www.facebook.com/aquarismoiniciante/">Aquarismo Iniciante</a></li>
+     <li><a href="https://pt-br.facebook.com/groups/641409809306516">Aquarismo Marinho</a></li>
+     <li><a href="https://pt-br.facebook.com/groups/1420413751529368/forsaleposts/">Aquarismo MG</a></li>
+     <li><a href="https://pt-br.facebook.com/groups/AquarismoCE/permalink/561287244040261/">Aquarismo CE</a></li>
+     <li><a href="https://pt-br.facebook.com/SBA.SociedadeBrasileiraAquaristas/">Sociedade Brasileira Aquarista</a></li>
+     <li><a href="https://pt-br.facebook.com/grupoaquaristasdeniteroi/">Aquarista de Niterói</a></li>
+     <li><a href="https://pt-br.facebook.com/Peixe-Grande-Aquarismo-498201810311995/">Peixe Grande Aquarismo</a></li>
+     <li><a href="https://pt-br.facebook.com/AquarismoPB">Aquarismo PB</a></li>
+</ul> 
+    </li>
+    <li><a href="#">Instagram</a></li>
+    <li><a href="#">twiter</a></li>
+    <li><a href="#">You tube Canais</a>
+<ul>
+   <li><a href="https://www.youtube.com/watch?v=_OBGYGqFhhg">Aquarismo Fácil</a></li>
+   <li><a href="https://www.youtube.com/channel/UCvaBFRjtzm_5O2Bd1Rgvg5g">Brasil Aquarismos</a></li>
+   <li><a href="https://www.youtube.com/watch?v=K0KFPEoY-ZQ">Tv Aquarismo Jumbo</a></li>
+   <li><a href="https://www.youtube.com/channel/UCNogeTrINhMw22yhqmXAjMA">Aquarismo Jumbo</a></li>
+   <li><a href="https://www.youtube.com/user/remoterani/videos">Renato Monterani</a></li>
+</ul>   
+    </li>
+</ul>
+
+ </li>
+    <li><a href="#">Curiosiedades</a></li>
+    <li><a href="#">Outros Tipos de Aquarismo</a>
+<ul>
+    <li><a href="https://pt.wikipedia.org/wiki/Aqu%C3%A1rio_plantado">Plantados</a><li>
+    <li><a href="http://www.msmarine.com.br/aquario-marinho.asp">Marinho</a><li>
+    <li><a href="http://dmscaping.blogspot.com.br/p/aquapaisagismo.html">Aquapaisagismo</a><li>
+</ul>
+    </li>
+    <li><a href="#">Parâmentros</a>
+
+<ul>
+    <li><a href="http://www.webanimal.com.br/peixe/index2.asp?menu=p_ph.htm">Ph</a><li>
+    <li><a href="https://www.aquaa3.com.br/2016/04/o-que-e-amonia-no-aquario.html">Amônia</a><li>
+</ul>
+
+    </li>
+    <li><a href="">Sites Parceiros</a>
+<ul>   
+    <li><a href="www.aquariushobby.com.br/">Aquarius Hobby</a></li>
+    <li><a href="www.aquaonline.com.br/">Aqol-Aquarismo Online</a></li>
+    <li><a href="http://www.aquarismopaulista.com/">Aquarismo Paulista</a></li>
+    <li><a href="http://aquabr.com.br/">Aquabr</a></li>
+    <li><a href="http://www.aquaflux.com.br">Aquaflux</a></li>
+    <li><a href="http://peixeseaquarios.com.br/">Peixes e Aquários</a></li>
+    <li><a href="https://www.aquaa3.com.br/">AquaA3</a></li>
+    <li><a href="http://www.aquariushobby.blog.br/2009/03/quebrando-gelo.html">Aquarius Hobby</a></li>
+    <li><a href="http://reefclub.com.br/portal/">Reef Club</a></li>
+    <li><a href="http://www.portaldeaquario.com.br/principal.html">Portal Do Aquarismo</a></li>
+</ul>  
+   </li>
+    <li><a href="">foruns</a>
+<ul>
+     <li><a href="http://www.aquaflux.com.br/forum/">Forum Aquaflux</a></li>
+     <li><a href="http://www.reefclub.com.br/community/index.php">Forum Reef Clube</a></li>
+     <li><a href="http://www.aquaonline.com.br/forum/">Forum Aquarismo Online</a></li>
+     <li><a href="http://www.aquahobby.com/phpBB2/">Forum Aquahobby</a></li>
+     <li><a href="http://www.reefcorner.org/forum/default.asp">Forum Reef Corner</a></li>
+     <li><a href="http://www.ipaq.org.br/vb/forum.php">Forum IpAq</a></li>
+     <li><a href="http://www.aquariofilia.net/forum/">forum Aquariofilia</a></li>
+</ul>
+    </li>
+
+    <li><a href="#">Doenças e Tratamento</a>
+<ul>
+    <li><a href="#">?</a></li>
+    <li><a href="#">?</a></li>
+    <li><a href="#">?</a></li>
+    <li><a href="#">?</a></li>
+    <li><a href="#">?</a></li>
+</ul>
+    </li> 
+    
+    <li><a href="#">Tratamento De Tronco</a></li>
+    <li><a href="#">Peixes de Pele</a></li>
+    <li><a href="#">Peixes De Escama</a></li>
+    <li><a href="#">Acessórios Fundamentais</a></li>
+    <li><a href="#">Transporte De Peixes</a></li>
+    <li><a href="#">Calculadora De Litragem</a></li>
+    <li><a href="#">Qual Cilicone Devo colar Aquário</a></li>
+    <li><a href="#">Ph ácido</a></li>
+    <li><a href="#">ph neutro</a></li>
+    <li><a href="#">Ph alcalino</a></li>
+    <li><a href="#">Tpa</a></li>
+    <li><a href="#">Alimento Vivo</a></li>
+    <li><a href="#">Pedrinhas Coloridas</a></li>
+    <li><a href="#">Ciclagem</a></li>
+    <li><a href="#">Iluminação</a></li>
+    <li><a href="#">Faça Você Mesmo</a></li>
+    <li><a href="#">Sal Grosso</a></li>
+    <li><a href="#">Rações</a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#">?</a></li>
+    <li><a href="#">?</a></li>   
+    <li><a href="#">?</a></li>
+
+</ul>
+</div>
+
+
+<div class="wp_rp_wrap  wp_rp_pinterest" id="wp_rp_first">
+<div class="wp_rp_content">
+<h3 class="related_post_title">Matérias relacionadas</h3>
+<ul class="related_post wp_rp">
+<li class="wp_rp_related_post_column wp_rp_special">
+<ul><li class="undefined" data-post-type="none" data-position="0" data-poid="in-6961">
+<a href="http://www.aquarismopaulista.com/chitala-blanci/" class="wp_rp_thumbnail"><img width="150" height="113" src="http://www.aquarismopaulista.com/wp-content/uploads/2015/08/Chitala-blanci-300x225.jpg" class="attachment-150x0 size-150x0 wp-post-image" alt="" srcset="http://www.aquarismopaulista.com/wp-content/uploads/2015/08/Chitala-blanci-300x225.jpg 300w, http://www.aquarismopaulista.com/wp-content/uploads/2015/08/Chitala-blanci.jpg 550w" sizes="(max-width: 150px) 100vw, 150px"></a><a href="http://www.aquarismopaulista.com/chitala-blanci/" class="wp_rp_title">Peixe Faca Real – Chitala blanci</a></li><li class="undefined" data-post-type="none" data-position="3" data-poid="in-4062"><a href="http://www.aquarismopaulista.com/scleropages-jardinii/" class="wp_rp_thumbnail"><img width="150" height="85" src="http://www.aquarismopaulista.com/wp-content/uploads/2014/11/Scleropages-jardinii-300x169.jpg" class="attachment-150x0 size-150x0 wp-post-image" alt="" srcset="http://www.aquarismopaulista.com/wp-content/uploads/2014/11/Scleropages-jardinii-300x169.jpg 300w, http://www.aquarismopaulista.com/wp-content/uploads/2014/11/Scleropages-jardinii.jpg 600w" sizes="(max-width: 150px) 100vw, 150px"></a><a href="http://www.aquarismopaulista.com/scleropages-jardinii/" class="wp_rp_title">Aruanã Australiana / Jardini (Scleropages jardinii)</a></li><li data-position="7" data-poid="1017"><a href="http://www.aquarismopaulista.com/osteoglossum-ferreirai/" class="wp_rp_thumbnail"><img width="150" height="100" src="http://www.aquarismopaulista.com/wp-content/uploads/2014/08/Osteoglossum-ferreirai1-300x200.jpg" class="attachment-150x0 size-150x0 wp-post-image" alt="" srcset="http://www.aquarismopaulista.com/wp-content/uploads/2014/08/Osteoglossum-ferreirai1-300x200.jpg 300w, http://www.aquarismopaulista.com/wp-content/uploads/2014/08/Osteoglossum-ferreirai1.jpg 600w" sizes="(max-width: 150px) 100vw, 150px"></a><a href="http://www.aquarismopaulista.com/osteoglossum-ferreirai/" class="wp_rp_title">Aruanã Negra (Osteoglossum ferreirai)</a></li><li data-position="9" data-poid="5445"><a href="http://www.aquarismopaulista.com/polypterus-delhezi/" class="wp_rp_thumbnail"><img width="150" height="113" src="http://www.aquarismopaulista.com/wp-content/uploads/2015/05/Polypterus-delhezi21-300x225.jpg" class="attachment-150x0 size-150x0 wp-post-image" alt=""></a><a href="http://www.aquarismopaulista.com/polypterus-delhezi/" class="wp_rp_title">Polypterus delhezi (Polypterus delhezi)</a></li></ul></li><li class="wp_rp_related_post_column wp_rp_special"><ul><li class="undefined" data-post-type="none" data-position="1" data-poid="in-6999"><a href="http://www.aquarismopaulista.com/notopterus-notopterus/" class="wp_rp_thumbnail"><img width="150" height="100" src="http://www.aquarismopaulista.com/wp-content/uploads/2015/08/Notopterus-notopterus-300x200.jpg" class="attachment-150x0 size-150x0 wp-post-image" alt="" srcset="http://www.aquarismopaulista.com/wp-content/uploads/2015/08/Notopterus-notopterus-300x200.jpg 300w, http://www.aquarismopaulista.com/wp-content/uploads/2015/08/Notopterus-notopterus.jpg 550w" sizes="(max-width: 150px) 100vw, 150px"></a><a href="http://www.aquarismopaulista.com/notopterus-notopterus/" class="wp_rp_title">Peixe Faca Asiático – Notopterus notopterus</a></li><li class="undefined" data-post-type="none" data-position="4" data-poid="in-2611"><a href="http://www.aquarismopaulista.com/arapaima-gigas/" class="wp_rp_thumbnail"><img width="150" height="106" src="http://www.aquarismopaulista.com/wp-content/uploads/2014/10/Arapaima-gigas-300x212.jpg" class="attachment-150x0 size-150x0 wp-post-image" alt="" srcset="http://www.aquarismopaulista.com/wp-content/uploads/2014/10/Arapaima-gigas-300x212.jpg 300w, http://www.aquarismopaulista.com/wp-content/uploads/2014/10/Arapaima-gigas.jpg 600w" sizes="(max-width: 150px) 100vw, 150px"></a><a href="http://www.aquarismopaulista.com/arapaima-gigas/" class="wp_rp_title">Pirarucu, Arapaima (Arapaima gigas)</a></li><li data-position="6" data-poid="1028"><a href="http://www.aquarismopaulista.com/osteoglossum-bicirrhosum/" class="wp_rp_thumbnail"><img width="150" height="113" src="http://www.aquarismopaulista.com/wp-content/uploads/2014/08/Osteoglossum-bicirrhosum1-300x225.jpg" class="attachment-150x0 size-150x0 wp-post-image" alt="" srcset="http://www.aquarismopaulista.com/wp-content/uploads/2014/08/Osteoglossum-bicirrhosum1-300x225.jpg 300w, http://www.aquarismopaulista.com/wp-content/uploads/2014/08/Osteoglossum-bicirrhosum1.jpg 600w" sizes="(max-width: 150px) 100vw, 150px"></a><a href="http://www.aquarismopaulista.com/osteoglossum-bicirrhosum/" class="wp_rp_title">Aruanã Prata (Osteoglossum bicirrhosum)</a></li></ul></li><li class="wp_rp_related_post_column wp_rp_special"><ul><li class="undefined" data-post-type="none" data-position="2" data-poid="in-6977"><a href="http://www.aquarismopaulista.com/xenomystus-nigri/" class="wp_rp_thumbnail"><img width="150" height="113" src="http://www.aquarismopaulista.com/wp-content/uploads/2015/08/Xenomystus-nigri-300x225.jpg" class="attachment-150x0 size-150x0 wp-post-image" alt="" srcset="http://www.aquarismopaulista.com/wp-content/uploads/2015/08/Xenomystus-nigri-300x225.jpg 300w, http://www.aquarismopaulista.com/wp-content/uploads/2015/08/Xenomystus-nigri.jpg 550w" sizes="(max-width: 150px) 100vw, 150px"></a><a href="http://www.aquarismopaulista.com/xenomystus-nigri/" class="wp_rp_title">Peixe Faca Africano – Xenomystus nigri</a></li><li data-position="5" data-poid="1038"><a href="http://www.aquarismopaulista.com/pantodon-buchholzi/" class="wp_rp_thumbnail"><img width="150" height="113" src="http://www.aquarismopaulista.com/wp-content/uploads/2014/08/Pantodon-buchholzi1-300x225.jpg" class="attachment-150x0 size-150x0 wp-post-image" alt="" srcset="http://www.aquarismopaulista.com/wp-content/uploads/2014/08/Pantodon-buchholzi1-300x225.jpg 300w, http://www.aquarismopaulista.com/wp-content/uploads/2014/08/Pantodon-buchholzi1.jpg 600w" sizes="(max-width: 150px) 100vw, 150px"></a><a href="http://www.aquarismopaulista.com/pantodon-buchholzi/" class="wp_rp_title">Borboleta africana (Pantodon buchholzi)</a></li><li data-position="8" data-poid="8951"><a href="http://www.aquarismopaulista.com/barbo-fenix-spinibarbus-denticulatus/" class="wp_rp_thumbnail"><img src="http://www.aquarismopaulista.com/wp-content/uploads/2016/04/Spinibarbus-denticulatus-150x100.jpg" alt="Barbo Fenix (Spinibarbus denticulatus)" width="150"></a><a href="http://www.aquarismopaulista.com/barbo-fenix-spinibarbus-denticulatus/" class="wp_rp_title">Barbo Fenix (Spinibarbus denticulatus)</a></li></ul></li><li class="wp_rp_related_post_load_more wp_rp_special"><a id="wp_rp_related_load_more" href="#"><span>Load more posts</span><img src="https://wprp.zemanta.com/static/img/loading.gif" class="zloader" style="display: none;"></a></li></ul></div></div>
+
+  
+  
+
+  <div class="faca-palhaco">  
+  <img src="faca.jpg" title="Faca Palhaço" alt="Faca palhaço">
+  </div>
+  <p>Nome Popular: Peixe Faca Palhaço — Inglês: Clown knifefish, Clown featherback</p>
+
+  <p>Ordem: Osteoglossiformes — Família: Notopteridae (Notopterídeos)</p>
+
+  <p>Distribuição: Ásia. Encontrado nas bacias de Chao Phraya e Meklong no Laos, Tailândias, Camboja e Vietnã. Introduzido e estabelecido na Flórida (EUA).</p>
+
+  <p>Comportamento: Territorialista, predador</p>
+
+  <p>Tamanho Adulto: 100 cm (comum: 60 cm)</p>
+
+  <p>Expectativa de Vida: 10 anos +</p>
+
+  <p>pH: 6.0 a 8.0</p>
+
+  <p>Dureza: Indiferente</p>
+
+  <p>Temperatura: 20°C a 28°C</p>
+
+  <p>Aquário Mínimo: 150 cm X 50 cm X 50 cm (375L)</p>
+
+  <p>Alimentação: Carnívoro, em seu ambiente natural se alimenta de insetos, camarões, pequenos peixes e caranguejos. Em cativeiro dificilmente aceitam alimentos secos devendo ser fornecido filés de peixes e alimentos vivos.</p>
+
+  <p>Reprodução: Ovíparo, não há registro de sua reprodução em cativeiro, porém sabe-se que indivíduos machos constroem ninhos de galhos e folhas para acomodar os ovos e alevinos, além de protegê-los por algumas semanas.</p>
+
+  <p>Dimorfismo Sexual: Desconhecido</p>
+
+  <p>Biótopo: Em fase juvenil são encontrados em meio a densa vegetação em riachos, adultos ocorrem em rios médios e grandes em ambiente lótico. Normalmente encontrado associado a substratos rochosos. Evita afluentes e brejos e são criados em açudes e lagos para consumo humano.</p>
+
+  <p>Informações adicionais: Apresenta corpo em forma de faca comprido lateralmente e prateado, daí seu nome comum. É uma espécie comum na Ásia tanto para fins ornamentais como na aquicultura. Indivíduos adultos normalmente apresentam de cinco a dez (ou mais) manchas oceladas e são comumente confundidos com Chitala chitala, mas pode ser distinguido de todos os congêneres pela presença de uma ou mais linhas de grandes manchas oceladas acima da base da nadadeira anal. Variedades albinas e leucisticas são comumente encontradas em lojas de aquário.</p>
+
+  <p>Possuem hábito noturno e normalmente caçam neste período. Juvenis possuem hábito gregário, mas a medida que crescem se tornam territorialistas e solitários. Ele deve subir à superfície para tomar um gole de ar periodicamente, muitas vezes emitindo sons, esta característica lhe permite respirar ar atmosférico podendo sobreviver em águas estagnadas e com pouco índice de oxigênio dissolvido. Bastante apreciado na culinária asiática e criado em larga escala comercialmente em lagos e açudes para o consumo humano.</p>
+
+  <p>Manter o aquário bem tampado, uma vez que é comum a espécie saltar para fora do aquário, além de tocas (cavernas) onde possa se refugiar e passar a maior parte de seu tempo. Deve-se observar que peixes facas são sensíveis a medicamentos, devendo ser reduzido para metade da dosagem recomendada em qualquer tipo de tratamento, assim como evitar o uso de sal.</p>
+
+
+
+
+
+
+
+
+
+<div id="area"> 
+    <form id="formulario" autocomplete="off">
+      <fieldset>
+        <legend>Loguin</legend>
+        <label>Nome:</label><input class="campo_nome" type="text"><br>
+        <label>Email:</label><input class="campo_email" type="password"><br>
+        <input class="btn_submit" type="submit" value="Entrar">
+        <input class="btn_submit" type="submit" value="Recuperar Senha">
+      </fieldset>
+    </form>
+</div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+h1{margin-top: 200px;
+   margin-left: 600px;
+   font-family: 
+   
+}
+
+.area {
+    background: #FF4500;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    width: 10%;
+    height: 30px;
+    margin-top:50px; 
+    margin-left: 1350px;
+    margin-bottom: 150px;
+    display: inline-block;
+  }
+  .fade {
+    opacity:0.5;
+    transition: opacity 1s 0.1s ease-in-out;
+    will-change: opacity;
+  }
+  .fade:hover {
+    opacity:1;
+  }
+  .area{border-radius:50px;
+
+  }
+
+  
+ 
+</style>
+
+<footer>
+
+<>
+<div class="area fade">anime >></div>
+<a href=""> </a>
+
+
+</footer>
+
+
+
+</body>
+</html>
